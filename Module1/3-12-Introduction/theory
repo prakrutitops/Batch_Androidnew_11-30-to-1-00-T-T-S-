@@ -1,0 +1,58 @@
+Android Development
+
+Language:
+
+1)Java
+2)Kotlin
+
+Android -Operating System
+Android is a one Mobile Application platform
+
+Android -Founder - Andy Rubin
+
+==============================================
+Setup:
+
+1) JDK ->Java Development Kit[Compiler]
+Download->https://www.techspot.com/downloads/5198-java-jre.html
+Install->
+Set the path
+Path -> C:\Program Files\Java\jdk1.8.0_191\bin
+
+This Pc ->Right Click->Properties->Advanced System Settings
+->Environment Variables->path->Edit->Paste your path->Click on Ok
+
+2)IntelijIDEA
+Download->https://www.jetbrains.com/idea/download/#section=windows
+Install->
+
+3)Tops Career Center
+
+4)Github
+
+
+
+Java ->Method Based Programming Language[Object Oriented Programming]
+
+Kotlin->Functional Based Programming Language[OOP,Functions]
+
+->Semicolon is not required in Kotlin
+
+->
+Data Type:
+
+int-numeric
+float-decimal-4 byte
+char-character
+double-decimal-8 byte
+boolean-true,false
+String-Any Paragraph
+
+var ->You can change the value 
+val ->You can not change the value
+
+Shortcut-Alt+Enter
+
+Conditional Statement->If,Else if,Else
+		     ->Switch,case,break[when]	
+
