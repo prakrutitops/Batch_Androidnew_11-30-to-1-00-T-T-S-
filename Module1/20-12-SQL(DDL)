@@ -1,0 +1,33 @@
+DDL
+1. create database
+CREATE DATABASE databasenm;
+
+2. create table
+CREATE TABLE TABLE_NAME(id int PRIMARY KEY AUTO_INCREMENT,
+countrynm varchar(255))
+
+3. add column
+ALTER TABLE tablenm ADD columnnm datatype;
+
+4.  particular column after column add
+ALTER TABLE tablenm ADD columnnm datatype AFTER column; 
+
+
+5. datatyape change
+ALTER TABLE tablenm MODIFY columnnm datatype;
+
+
+6. Rename column
+alter table TABLE_NAME CHANGE oldcolumnnm newcolumnnm varchar(255)
+
+7. Remove column
+ALTER TABLE TABLE_NAME drop columnnm;
+
+8. only data delete structure  
+TRUNCATE TABLE country
+
+9. drop table
+DROP TABLE state
+
+10. rename table
+RENAME TABLE country TO coun
