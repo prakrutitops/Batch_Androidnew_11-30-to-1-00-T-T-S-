@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Krupali"
+        android:gravity="center"
+        android:textColor="#CD8212"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chirag"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#FF5722"
+        android:layout_below="@+id/t1"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prakruti"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#8BC34A"
+        android:layout_below="@+id/t2"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/t3"
+        />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/a"
+            android:layout_below="@+id/btn1"/>
+
+
+</RelativeLayout>
