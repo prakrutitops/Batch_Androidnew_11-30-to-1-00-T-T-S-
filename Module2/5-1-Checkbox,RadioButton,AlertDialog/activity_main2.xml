@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".MainActivity2">
+
+
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PIZZA @ Rs. 100"/>
+
+    <CheckBox
+        android:id="@+id/chk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BURGER @ Rs. 70"
+        android:layout_below="@+id/chk1"/>
+
+    <CheckBox
+        android:id="@+id/chk3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COFFEE @ Rs. 120"
+        android:layout_below="@+id/chk2"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/chk3"/>
+
+</RelativeLayout>
