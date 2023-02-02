@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"/>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D"/>
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E"/>
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F"/>
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="G"/>
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="H"/>
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I"/>
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="J"/>
+
+
+
+</LinearLayout>
