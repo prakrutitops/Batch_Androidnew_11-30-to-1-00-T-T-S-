@@ -1,0 +1,19 @@
+Database:
+
+1)Offline
+Sqlite:
+SQL -> 
+
+Realm
+Room db
+
+2)Online:
+Mysql
+Firebase 
+
+
+
+create table tablename (id int primary key AUTO_INCREMENT,name varchar(255),number varchar(255))
+"CREATE TABLE " + TABLE_NAME + "("+ ID + " INTEGER PRIMARY KEY," + NAME + " TEXT,"+ PASS + " TEXT" + ")"
+
+
