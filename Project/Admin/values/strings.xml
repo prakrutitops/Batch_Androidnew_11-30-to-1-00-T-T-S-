@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ClassProjectAdmin</string>
+    <string name="admin_login"><u>Admin Login</u></string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="select_image">Select Image</string>
+    <string name="enter_image_name">Image Name</string>
+    <string name="upload">Upload</string>
+    <string name="log_out">Log Out</string>
+</resources>
