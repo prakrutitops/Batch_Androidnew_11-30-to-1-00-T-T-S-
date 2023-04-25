@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity.FullScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        android:layout_margin="25dp"
+        >
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abcd"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/txtprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abcd"
+            android:textSize="25sp"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/txtdes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abcd"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="25dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnwishlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WISHLIST"
+            android:layout_weight="1"
+            android:backgroundTint="#00BCD4"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnaddtocart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD To Cart"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#00BCD4"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
